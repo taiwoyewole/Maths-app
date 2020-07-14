@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.container-fluid {
+    max-width: 100%;
+}
+
+#home-sec {
+    background: url('img/Rectangle\ 1.svg');
+    background-repeat: no-repeat;
+    background-size: 101%;
+    /* background-size: contain; */
+}
+
+.home-div {
+    background: url('img/Group\ 205.svg');
+    background-repeat: no-repeat;
+    /* background-size: 203%; */
+}
+
+.inner-home-div {
+    background: url('img/Group\ 218.svg');
+    background-size: 120%;
+}
+#home-sec h1 {
+    font-size: 28px;
+    line-height: 45px;
+}
+
+#home-sec p {
+    font-size: 17px;
+    line-height: 33px;
+    font-weight: 600;
+}
+
+.icons-two {
+    display: none;
+}
+
+#home-sec h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 49px;
+    color:#1F90FF; ;
+}
+
+#home-sec h3 span {
+    font-size: 15px;
+    color: #000;
+    font-weight: normal;
+    /* padding: 0 .5rem; */
+}
+
+#home-sec input {
+    border: 0.946667px solid #1E90FF;
+    box-sizing: border-box;
+    box-shadow: 3.78667px 3.78667px 3.78667px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    width: 100%;
+}
+
+#notify {
+    width: fit-content !important;
+    background-color: #1F90FF;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+    box-shadow: 3.6px 3.6px 3.6px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    margin: 1rem auto !important;
+    display: block;
+}
+
+.abt h3 { 
+    /* font-weight: bold; */
+    font-size: 117%;
+    color: #141313;
+}
+
+.abt p, .features p {
+    font-size: 85%;
+    line-height: 27px;
+    color: #141313;
+}
+
+.features h4 {
+    font-size: 100%;
+    line-height: 25px;
+}
+
+.features h5 {
+    font-weight: 600;
+    font-size: 100%;
+    line-height: 33px;
+    color: #1E90FF;
+}
+.desktop {
+    display: none;
+}
+
+@media only screen
+and (min-device-width: 768px) {
+    #home-sec {
+        background-size: 100%;
+    }
+    .content {
+        max-width: 70%;
+        margin-left: 25% !important;
+    }
+    #home-sec h1 {
+        font-size: 36px;
+    }
