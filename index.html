@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no" name="viewport">
     <title>Maths Made Easy</title>
-    <link rel="icon" href="img/Group 205.svg" sizes="32x32" style="color:##1E90FF">
+    <link rel="icon" href="img/Group 205.svg" sizes="32x32" style="color:#1E90FF">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <!-- Google fonts  -->
@@ -12,88 +12,300 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <!-- Icons -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Slick -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css">
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-theme.css"/>
     <!-- <link rel="stylesheet" href="modal.css"> -->
 </head>
 <body>
+    <!-- Main Body  -->
     <main>
-        <!-- Main Body  -->
-        <main>
-            <section id="home-sec">
-                <div class="container-fluid home-div m-0 p-0">
-                    <div class="row inner-home-div m-0">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 content">
-                            <h1 class="text-center font-weight-bold mt-3 pt-5 px-2">MATHEMATICS EQUATION GENERATOR</h1>
-                            <p class="pt-5 px-3">This app is more like Microsoft Word, but in our case mathematics equation generator is used to type mathematical equation, even equations in journals and articles. Also you can read into the app with the help of google vocie and the app will authomatically type everything for you. </p>
-                            <div class="icons">
-                                <a class="px-1" href=""><img class="img-fluid" src="img/instagram.svg" alt=""></a>
-                                <a class="px-1" href=""><img class="img-fluid" src="img/fb.svg" alt=""></a>
-                                <a class="px-1" href=""><img class="img-fluid" src="img/twitter.svg" alt=""></a>
-                            </div>
-                            <img class="img-fluid img-zoom py-3" src="img/Calculator-amico 1.svg" alt="">
-                            <div class="lower-div">
-                                <p class="mb-0">LAUNCHING SOON!<span class="px-1"><small>Get Notified</small></span> </p> 
-                                <form action="">
-                                    <input class="px-2 py-2 my-1" type="text" name="email" placeholder="Enter your email...">
-                                    <input class="my-1 px-5 py-2" type="submit" name="email" value="Notify Me" id="notify">
-                                </form>
-                            </div>
+        <section id="home-sec">
+            <div class="container-fluid home-div m-0 p-0">
+                <div class="row inner-home-div m-0">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 inner-left-div mt-5 pt-5">
+                        <p class="heading  text-center pt-5">You don’t have to be scared of all those big maths equations.<br>
+                            <span class="font-weight-bolder">MATHEMATICS EQUATION GENERATOR </span><br>
+                            is here to make that fear go away. 
+                        </p>
+                        <p class="subscribe text-center mt-5">Subscribe to get notified when we launch the app.</p>
+                        
+                        <div class="form-div mt-5">
+                            <p class="mb-0 font-weight-bold">LAUNCHING SOON!<span class="px-1"><small>Get Notified</small></span> </p> 
+                            <form action="">
+                                <input class="email px-2 py-2 my-2" type="text" name="email" placeholder="Enter your email...">
+                                <input class="my-3 px-5 py-2 font-weight-bold" type="submit" name="email" value="Notify Me" id="notify">
+                            </form>
                         </div>
                     </div>
-                    <div class="icons-two pb-4">
-                        <a href=""><img class="img-fluid px-1" src="img/instagram.svg" alt=""></a>
-                        <a href=""><img class="img-fluid px-1" src="img/fb.svg" alt=""></a>
-                        <a href=""><img class="img-fluid px-1" src="img/twitter.svg" alt=""></a>
-                    </div>
-                </div>
-            </section>
-            <section class="abt my-4 mx-3 text-center">
-                <div class="container-fluid m-0 p-0">
-                    <div class="row m-0">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                            <h3 class="font-weight-bold py-3">Mathematics Equation Generator </h3>
-                            <p>Mathematics equation generator is an online collaborative typeing tool that makes all the process of writting, editing, and publishing maths euqtions document much easier and quicker. Mths equation generator provides the convenience of an easy -to -use editor with real time collaboration and the fully compiled output produced authomaically in the background as you type.</p>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 inner-right-div">
+                        <div class="phone-div">
+                            <img class="img-fluid img-zoom" src="img/iPhone 11 Pro Max.svg" alt="">
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="features mx-3">
-                <div class="container-fluid m-0 p-0">
-                    <h4 class="text-center text-body font-weight-bolder">Some key features of Maths Equation Generator</h4>
-                    <div class="row my-2 mx-0">
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                            <h5 class="pt-3 pb-1">A web browser</h5>
-                            <p>You are not only limited to our application, you can also a web browser to access our app. So you can start with your project instantly, our rea-time preview also makes it great for learning,you can see how your final project looks like.</p>
+            </div>
+        </section>
+        <section class="abt my-5 mx-3">
+            <div class="container-fluid abt-div my-5 mx-0 p-0">
+                <div class="row m-0">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <h3 class="text-body text-center font-weight-bold py-3">WHY CHOOSE US</h3>
+                        <div class="row mt-5 mb-2">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                <div class="inner-div text-center w-75 my-4 mx-auto">
+                                    <img src="img/Group 309.svg" alt="">
+                                    <h5 class="font-weight-bold py-2">Professional</h5>
+                                    <p> We are professionals and dilligent at what we do with very talented workers. </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                <div class="inner-div text-center w-75 my-4 mx-auto">
+                                    <img src="img/Group 304.svg" alt="">
+                                    <h5 class="font-weight-bold py-2">Experienced</h5>
+                                    <p>We are very experienced at what we do, we have been for over many years.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                <div class="inner-div text-center w-75 my-4 mx-auto">
+                                    <img src="img/Group 305.svg" alt="">
+                                    <h5 class="font-weight-bold py-2">Vibrant</h5>
+                                    <p>You can actually speak or chat with people like you are with the person real.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                            <img class="img-fluid img-zoom" src="img/iPhone 11 Pro.svg" alt="">
+                        <div class="row mb-5">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                <div class="inner-div text-center w-75 my-4 mx-auto">
+                                    <img src="img/Group 304.svg" alt="">
+                                    <h5 class="font-weight-bold py-2">Use Anywhere</h5>
+                                    <p>The best thing about this us is that you can be able to use our app anywhere, anytime you like.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                <div class="inner-div commun text-center w-75 my-4 mx-auto">
+                                    <img src="img/Group 307.svg" alt="">
+                                    <h5 class="font-weight-bold py-2">Strong Community</h5>
+                                    <p>Once you join us you will find out that this is just more than an organization rather it is a family.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                <div class="inner-div text-center w-75 my-4 mx-auto">
+                                    <img src="img/Group 304.svg" alt="">
+                                    <h5 class="font-weight-bold py-2">Quality</h5>
+                                    <p> Our app has a very good and high quality , which we made for you to be able to view very well. </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="row my-2 mx-0">
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 mobile">
-                            <h5 class="pt-3 pb-1">Effortless sharing</h5>
-                            <p> Every document you create on Maths equation generator is private by default, with two easy ways to share your work with collaborators: by private invitation or by link sharing.<br> Link sharing allows you toshare your projects via secret links, just turn on link sharing, send link to your co-authors, and they can reviw, comment and edit. or simply turn the link off to make your project private again. </p>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                            <img class="img-fluid img-zoom" src="img/iPhone 11 left.svg" alt="">
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 desktop">
-                            <h5 class="pt-3 pb-1">Effortless sharing</h5>
-                            <p> Every document you create on Maths equation generator is private by default, with two easy ways to share your work with collaborators: by private invitation or by link sharing.<br> Link sharing allows you toshare your projects via secret links, just turn on link sharing, send link to your co-authors, and they can reviw, comment and edit. or simply turn the link off to make your project private again. </p>
-                        </div>
-                    </div>
-                    <div class="row my-2 mx-0">
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                            <h5 class="pt-3 pb-1">Not just for writing Maths Euations</h5>
-                            <p> Write your thesis, create calendars, make amazing presentations with the beamer package and create posters to showcase your work. The real-time preview also hleps when you’re working with complicated tables, equations and graphs</p>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                            <img class="img-fluid img-zoom" src="img/iPhone 11 Pro.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="app my-5 mx-4">
+            <div class="container-fluid my-5 mx-0 p-0 text-center app">
+                <div class="row m-0">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 p-0">
+                        <h3 class="font-weight-bold py-3">WHAT THE APP DOES</h3>
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-0">
+                                <p class="px-1">Mathematics equation generator is an online collaborative typing tool that makes all the process of writting, editing, and publishing maths equations document much easier and quicker. Maths equation generator provides the convenience of an easy -to -use editor with real time collaboration and the fully compiled output produced authomaically in the background as you type.</p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-0 phone-two-div">
+                                <img class="img-fluid img-zoom m-auto" src="img/iPhone 11 Pro2.svg" alt="">
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="steps">
+            <div class="container-fluid text-center m-0 px-3">
+                <div class="row m-0">
+                    <div class="col-12 col-sm-12 col-md- col-lg-12 p-0">
+                        <h3 class="font-weight-bold py-3">HOW IT WORKS</h3>
+                        <div class="row my-2 mx-0">
+                            <div class="mobile-star col-12 col-sm-12 col-md-2 col-lg-2 my-4 p-0">
+                                <img class="img-fluid" src="img/Group 345.svg" alt="">
+                            </div>
+                            <div class="content-one col-12 col-sm-12 col-md-5 col-lg-5 mb-4 p-0">
+                                <h6 class="font-weight-bold">Sign Up</h6>
+                                <p>After downloading the app, registering and confirming your email.</p>
+                                <p>Sign in afterward, follow the guides and set up the application to suit you for easy access anytime you want to make use of it.</p>
+                                <img class="img-fluid" src="img/Group 269.svg" alt="">
+                            </div>
+                            <div class="desktop-star col-12 col-sm-12 col-md-2 col-lg-2 my-4 p-0">
+                                <img class="img-fluid" src="img/Group 345.svg" alt="">
+                            </div>
+                            <div class="content-img col-12 col-sm-12 col-md-5 col-lg-5 mb-4 p-0">
+                                <img class="img-fluid" src="img/Group 290.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="row my-2 mx-0">
+                            <div class="mobile-star col-12 col-sm-12 col-md-2 col-lg-2 my-4 p-0">
+                                <img class="img-fluid" src="img/Group 360.svg" alt="">
+                            </div>
+                            <div class="content-img col-12 col-sm-12 col-md-5 col-lg-5 my-4 p-0">
+                                <img  class="img-fluid" src="img/Group 288.svg" alt="">
+                            </div>
+                            <div class="desktop-star col-12 col-sm-12 col-md-2 col-lg-2 my-4 p-0">
+                                <img class="img-fluid" src="img/Group 360.svg" alt="">
+                            </div>
+                            <div class="content-two col-12 col-sm-12 col-md-5 col-lg-5 mb-4 p-0">
+                                <h6 class="font-weight-bold">Create a Document</h6>
+                                <p>After you must have logged in to the app , you will have to create a new document like as if you are using a word document.</p>
+                                <p>You dont have to worry if you dont how, there’s a mannual tha is going to guide you all the way, just follow the guidelines given and you willl be able to open a new document all by yourself.</p>
+                                <img class="img-fluid" src="img/Group 269.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="row my-2 mx-0">
+                            <div class="mobile-star col-12 col-sm-12 col-md-2 col-lg-2 my-4 p-0">
+                                <img class="img-fluid" src="img/Group 358.svg" alt="">
+                            </div>
+                            <div class="content-three col-12 col-sm-12 col-md-5 col-lg-5 mb-4 p-0">
+                                <h6 class="font-weight-bold">Select Your Project</h6>
+                                <p>When you’re done creating your document select the project you want to work or you can scan a handwritten maths equation and the app will simply write it for you in a better format.</p>
+                                <p>Or you can simply read out the equations to the app through the use of google search voiceand our application will simply write down whatever you say for you.</p>
+                                <img class="img-fluid" src="img/Group 269.svg" alt="">
+                            </div>
+                            <div class="desktop-star col-12 col-sm-12 col-md-2 col-lg-2 my-4 p-0">
+                                <img  class="img-fluid" src="img/Group 358.svg" alt="">
+                            </div>
+                            <div class="content-img col-12 col-sm-12 col-md-5 col-lg-5 my-4 p-0">
+                                <img class="img-fluid" src="img/Group 286.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feat">
+            <div class="container-fluid text-center px-3 m-0">
+                <div class="row m-0">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 p-0">
+                        <h3 class="font-weight-bold py-3">OUR BEST FEATURES</h3>
+                        <p>Here are some of the features that make our app the best you will ever find.</p>
+                        <img class="img-fluid img-zoom my-5" src="img/Group 323.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery my-4 mx-0 text-center">
+            <div class="container-fluid inner-gallery m-0 p-0">
+                <div class="row m-0">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <h3 class="font-weight-bold py-3">APP GALLERY</h3>
 
-            </section>
+                        <div class="page-post-center slider">
+                            <div class="post-item">
+                              <div class="h-100 w-100 post-item-wrap">
+                               <img src="img/Group 237.svg" alt="">
+                            </div>
+                            <div class="post-item">
+                              <div class="h-100 w-100 post-item-wrap">
+                                <img src="img/Group 237.svg" alt="">
+                              </div>
+                            </div>
+                            <div class="post-item">
+                              <div class="h-100 w-100 post-item-wrap">
+                                <img src="img/Group 237.svg" alt="">
+                              </div>
+                            </div>
+                            <div class="post-item">
+                              <div class="h-100 w-100 post-item-wrap">
+                                <img src="img/Group 237.svg" alt="">
+                              </div>
+                            </div>
+                            <div class="post-item">
+                              <div class="h-100 w-100 post-item-wrap">
+                                <img src="img/Group 237.svg" alt="">
+                              </div>
+                            </div>
+                            <div class="post-item">
+                              <div class="h-100 w-100 post-item-wrap">
+                                <img src="img/Group 237.svg" alt="">
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="notify my-4 mx-3 text-center">
+            <div class="container-fluid m-0 p-0">
+                <div class="row m-0">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 p-0 notify-div">
+                        <h3 class="font-weight-bold py-3">SUBSCRIBE TO GET NOTIFIED</h3>
+                        <p> We will be launching our app reall, don’t miss out on being the first set of people to have access to this app. </p>
+                        <form action="">
+                            <input class="email-two px-2 py-2 my-1" type="text" name="email" placeholder="Enter your email...">
+                            <input class="my-1 px-5 py-2" type="submit" name="email" value="Notify Me" id="notify">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="footer pt-5 pb-3 text-center">
+        <p> Get in Touch </p>
+        <div class="icons-two pb-4">
+            <a href=""><img class="img-fluid px-1" src="img/instagram.svg" alt=""></a>
+            <a href=""><img class="img-fluid px-1" src="img/fb.svg" alt=""></a>
+            <a href=""><img class="img-fluid px-1" src="img/twitter.svg" alt=""></a>
+        </div>
+        <p class="mb-0"><small> © Mathsequationgenerator, Inc. 2020. All rights reserved.</small></p>
+    </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).on("ready", function () {
+          $(".page-post-center").slick({
+            centerMode: true,
+            autoplay: true,
+            infinite: true,
+            centerPadding: "0px",
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [
+              {
+                breakpoint: 1199,
+                settings: {
+                  arrows: false,
+                  centerMode: true,
+                  centerPadding: "0px",
+                  slidesToShow: 2,
+                },
+              },
+              {
+                breakpoint: 768,
+                settings: {
+                  arrows: false,
+                  centerMode: true,
+                  centerPadding: "0px",
+                  slidesToShow: 1,
+                },
+              },
+              {
+                breakpoint: 480,
+                settings: {
+                  arrows: false,
+                  centerMode: true,
+                  centerPadding: "0px",
+                  slidesToShow: 1,
+                },
+              },
+            ],
+          });
+        });
+      </script>
 </body>
 </html>
