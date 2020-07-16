@@ -197,6 +197,9 @@ section:hover .img-zoom {
     line-height: 17px;
 }
 
+/* -------------------------MEDIA QUERIES ----------------------------- */
+
+/* ---------------------------------------Small screen sizes------------------------------- */
 @media only screen
 and (min-device-width: 400px) {
     .home-div {
@@ -227,6 +230,7 @@ and (min-device-width: 550px) {
         display: inline;
     }
 
+    /*---------------------------- Medium screen sizes----------------- */
 @media only screen
 and (min-device-width: 768px) {
     .home-div {
@@ -307,6 +311,7 @@ and (min-device-width: 768px) {
     }
 }
 
+/* --------------------------------- Large screen sizes----------------------------------- */
 @media only screen
 and (min-device-width: 1000px) {
     .heading {
