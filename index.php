@@ -176,19 +176,19 @@
                         </div>
                         <div class="row my-2 mx-0">
                             <div class="mobile-star col-12 col-sm-12 col-md-2 col-lg-2 my-4 p-0">
-                                <img class="img-fluid" src="img/Group 359.svg" alt="">
+                                <img class="img-fluid" src="img/Group 358.svg" alt="">
                             </div>
                             <div class="content-three col-12 col-sm-12 col-md-5 col-lg-5 mb-4 p-0">
                                 <h6 class="font-weight-bold">Select Your File</h6>
                                 <p>When the app is done with typing your project and you are satisfied with the work . Then you can save your work so you can make use of it anywhere you wish to.</p>
                                 <!-- <p>Or you can simply read out the equations to the app through the use of google search voiceand our application will simply write down whatever you say for you.</p> -->
-                                <img class="img-fluid" src="img/Group 269.svg" alt="">
+                                <img class="img-fluid" src="img/gr" alt="">
                             </div>
                             <div class="desktop-star col-12 col-sm-12 col-md-2 col-lg-2 my-4 p-0">
-                                <img  class="img-fluid" src="img/Group 359.svg" alt="">
+                                <img  class="img-fluid" src="img/Group 358.svg" alt="">
                             </div>
                             <div class="content-img col-12 col-sm-12 col-md-5 col-lg-5 my-4 p-0">
-                                <img class="img-fluid" src="img/Group 284.svg" alt="">
+                                <img class="img-fluid" src="img/Group 286.svg" alt="">
                             </div>
                         </div>
                     </div>
@@ -210,7 +210,7 @@
             <div class="container-fluid inner-gallery m-0 p-0">
                 <div class="row m-0">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                        <h3 class="font-weight-bold py-5">APP GALLERY</h3>
+                        <h3 class="font-weight-bold py-3">APP GALLERY</h3>
                         <div class="carousel">
                             <input type="radio" name="position" checked />
                             <input type="radio" name="position" />

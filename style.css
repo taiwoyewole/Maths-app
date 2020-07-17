@@ -165,7 +165,28 @@ section:hover .img-zoom {
     line-height: 29px;
 }
 
-.gallery, .footer {
+.gallery {
+background-color: #1E90FF;
+   /* background-image: url('img/Group\ 332.svg');
+   background-repeat: no-repeat;
+   background-size: cover; */
+    color: #fff;
+}
+
+.inner-gallery {
+    background-image: url('img/Group\ 331.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.inner-gallery .row {
+    background-image: url(img/Rectangle\ 104.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 125%;
+}
+
+.footer {
     background-color: #1E90FF;
     color: #fff;
 }
