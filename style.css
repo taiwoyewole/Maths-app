@@ -318,8 +318,16 @@ and (min-device-width: 768px) {
         padding-top: 4rem !important;
         text-align: left;
     }
+    .content-four {
+        padding-top: 6rem !important;
+        text-align: left;
+    }
     .content-img {
         padding-top: 5rem !important;
+    }
+
+    .last-img {
+        padding-top: 0 !important;
     }
   
     .notify-div {
